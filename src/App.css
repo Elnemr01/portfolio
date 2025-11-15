@@ -1,0 +1,30 @@
+/* common title style */
+
+.title {
+
+}
+
+.title p {
+    position: relative;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 2px solid var(--primary-color);;
+    padding: 15px 0
+}
+
+.title p::after {
+    content: '';
+    position: absolute;
+    width:15px;
+    height:15px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    top: 100%;
+    left: 50%;
+    translate: -50% -50%;
+}

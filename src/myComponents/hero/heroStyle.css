@@ -1,0 +1,100 @@
+.hero {
+    background-color: var(--primary-color);
+}
+
+.hero .container {
+    min-height: calc(100vh - 80px);
+}
+
+@media (width<=992px) {
+    .hero .grid-Container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        justify-content: center;
+    }
+}
+
+.hero .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (width<=992px) {
+    .hero .info {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.hero .info .name {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.hero .info h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+@media (width<=992px) {
+    .hero .info .name {
+        font-size: 28px;
+    }
+
+    .hero .info h2 {
+        font-size: 24px;
+    }
+
+    .hero img {
+        max-width: 100%;
+    }
+}
+
+.hero .info p {
+    color: #eee;
+    margin: 10px 0;
+}
+
+.hero .info .download-resume {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: white;
+    padding: 15px 20px;
+    background-color: var(--second-color);
+    width: -moz-fit-content;
+    width: fit-content;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: .875rem;
+    text-transform: capitalize;
+}
+
+.hero .info .download-resume .icon {
+    
+}
+
+.hero .info .download-resume span {
+    
+}
+
+
+.hero .picture {
+
+}
+
+.hero .picture img {
+    max-width: 400px;
+    border-radius: 50%;
+}
+
+@media (width<=400px) {
+    .hero img {
+        max-width: 100% !important;
+    }
+}

@@ -1,0 +1,34 @@
+.mySection {
+    margin: 50px 0 ;
+}
+
+.mySection .skills {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 25px 0;
+}
+
+.mySection .skills .item {
+    
+}
+
+.mySection .skills .item h1 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.mySection .skills .item h1 .icon {
+
+}
+
+.mySection .skills .item h1 span {
+}
+
+.mySection .skills .item p {
+    color: #333;
+}
