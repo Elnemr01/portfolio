@@ -1,0 +1,64 @@
+.projects {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+}
+
+.card {
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.card .image {
+    overflow: hidden;
+}
+
+.card .image img {
+
+}
+
+/* project style */
+
+.card .data {
+    margin: 20px 0;
+    padding: 0px 15px;
+
+}
+
+.card .data .name {
+    font-size: 20px;
+    color: var(--active-color);
+    font-weight: 500;
+}
+
+.card .data .description {
+    font-size: .875rem;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    min-height: 275px;
+}
+
+.card .data .description p {
+
+}
+
+.card .data .btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card .data .btns a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 6px;
+    text-transform: capitalize;
+    color: white;
+    background-color: var(--second-color);
+}

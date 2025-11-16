@@ -1,8 +1,18 @@
 import React from 'react'
+import { projects } from '../assets/assets'
+import { ProjectCard } from '../myComponents/projectCard/ProjectCard'
+import { Title } from '../myComponents/commonTitle/Title'
 
 const Projects = () => {
     return (
-        <div>Projects</div>
+        <div className='allProjects'>
+            <Title text={'All projects'}/>
+            <div className="container projects my-11">
+                {
+                    projects.map((pro,i)=> <ProjectCard project={pro} key={i}/>)
+                }
+            </div>
+        </div>
     )
 }
 

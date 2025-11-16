@@ -1,0 +1,52 @@
+.about {
+
+}
+
+.about .main-info {
+    margin-top: 20px;
+}
+
+.about .main-info h1 {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.about .main-info h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--active-color);
+}
+
+.about .main-info .education {
+    font-size: 17px;
+    font-weight: 400;
+    margin: 10px 0;
+    
+}
+
+.about .main-info > p {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+.about .main-info .experience {
+    margin: 15px 0;
+}
+
+.about .main-info .experience h3 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about .main-info .experience p {
+    color: #333;
+    
+}
