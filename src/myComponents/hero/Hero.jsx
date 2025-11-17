@@ -20,7 +20,7 @@ export const Hero = () => {
                     </a>
                 </div>
                 <div className="picture flex justify-center items-center">
-                    <img src={assets.darkLogo} alt="my personal picture" loading='lazy'/>
+                    <img src={assets.personal} alt="my personal picture" loading='lazy'/>
                 </div>
             </div>
         </div>

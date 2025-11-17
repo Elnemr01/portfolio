@@ -6,7 +6,7 @@ import { Title } from '../myComponents/commonTitle/Title'
 const Projects = () => {
     return (
         <div className='allProjects'>
-            <Title text={'All projects'}/>
+            <Title text={'Projects'}/>
             <div className="container projects my-11">
                 {
                     projects.map((pro,i)=> <ProjectCard project={pro} key={i}/>)
