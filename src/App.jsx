@@ -4,6 +4,7 @@ import Navbar from './myComponents/navbar/Navbar'
 import { Home } from './pages/Home'
 import Projects from './pages/Projects'
 import { About } from './pages/About'
+import { Test } from './pages/Test'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <div className="mt-[80px]">
         <Routes>
+          {/* <Route path='/' element={<Test/>} /> */}
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects/>}/>
           <Route path='/about' element={<About/>}/>

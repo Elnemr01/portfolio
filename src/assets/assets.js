@@ -31,6 +31,19 @@ export const contact = {
 
 export const projects=[
     {
+        name:'E-Shop with Online Payment',
+        description: [
+            "A simple e-shop app built with Next.js to practice real-world concepts.",
+            "Users can review their cart, update quantities, and complete payments with Stripe.",
+            "Zustand handles state management for a smooth cart experience.",
+            "The UI is styled with Tailwind and Shadcn UI for a clean modern look.",
+            "TypeScript improves code quality and prevents common errors.",
+            "Stripe integration simulates secure online payments.",
+        ],
+        repo:'https://github.com/Elnemr01/next-e-commerce',
+        demo: 'https://next-e-commerce-topaz.vercel.app/'
+    },
+    {
         name:'Breakinpoint website',
         description: [
             'Breakinpoint is a student activity at the Faculty of Engineering, Mansoura University.',
