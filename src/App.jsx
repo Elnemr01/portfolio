@@ -1,26 +1,26 @@
-import { Route, Routes } from 'react-router'
-import './App.css'
-import Navbar from './myComponents/navbar/Navbar'
-import { Home } from './pages/Home'
-import Projects from './pages/Projects'
-import { About } from './pages/About'
-import { Test } from './pages/Test'
+import { Route, Routes } from "react-router";
+import "./App.css";
+import Navbar from "./myComponents/navbar/Navbar";
+import { Home } from "./pages/home/Home";
+import AddProject from "./pages/dashboard/AddProject";
+import ProjectList from "./pages/dashboard/ProjectList";
+import { ToastContainer } from "react-toastify";
 
 function App() {
-
   return (
     <div className="App">
-      <Navbar/>
+      <ToastContainer />
+      <Navbar />
       <div className="mt-[80px]">
         <Routes>
-          {/* <Route path='/' element={<Test/>} /> */}
-          <Route path='/' element={<Home/>}/>
-          <Route path='/projects' element={<Projects/>}/>
-          <Route path='/about' element={<About/>}/>
+          <Route path="/" element={<ProjectList />} />
+          <Route path="/a" element={<AddProject />} />
+          {/* <Route path="/" element={<Home />} /> */}
+          
         </Routes>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

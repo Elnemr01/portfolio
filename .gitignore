@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+.env
 src/assets/assets.js
 
 # Editor directories and files

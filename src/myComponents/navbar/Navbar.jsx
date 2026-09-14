@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 import './nav_style.css'
 import { Link, NavLink } from 'react-router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,11 +11,16 @@ import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons'
 const Navbar = () => {
     let [showMenue,setShow]=useState(false);
     
-    const links= [
+    const links= useMemo(()=>[
         {to:'/', val:'home'},
+        {to:'/#about', val:'about'},
+        {to:'/#skills', val:'Skills'},
+        {to:'/#background', val:'background'},
         {to:'/projects', val:'projects'},
-        {to:'/about', val:'about'},
-    ]
+        {to:'/#contact', val:'contact'},
+    ],[])
+
+
 
     return (
         <header>

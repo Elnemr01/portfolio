@@ -24,7 +24,7 @@ export const contact = {
     facebook :'https://www.facebook.com/share/17iL3kMu4w/?mibextid=wwXIfr',
     instagram : 'https://www.instagram.com/a7med_elnemr_?igsh=MWxocjh3MGRtdGhmdQ%3D%3D&utm_source=qr',
     whatsapp : 'https://wa.me/01204662807',
-    gmail : 'mailto:elnemr21092003@gmail.com',
+    gmail : 'mailto:ahmedelnemrdev@gmail.com',
     github: 'https://github.com/Elnemr01',
     linkedin : 'https://linkedin.com/in/ahmed-elnemr-8728012b4',
 }
